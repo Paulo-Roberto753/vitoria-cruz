@@ -1,0 +1,89 @@
+/*CSS Reset*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+} 
+
+/*Variáves para cores*/
+:root{
+
+    --Laranja: #c28461;
+    --Braco: #5c2121;
+    --cinza: #492121;
+}
+
+/*Layout*/
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+body {
+    font-family: "MedievalSharp", sans-serif;
+    background-image: url(./img/vitoria\(2\).jpg);
+    background-size: 1000px;
+}
+    /*Cabeçalho*/
+header img {
+
+    width: 100px;
+    height: 100px;
+    margin-top: 30px;
+    border-radius: 50%;    
+        /
+}
+/*Principal*/
+main{
+    
+    text-align: center;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+}
+
+main h1 {
+    /*margin-top: 10px;
+    margin-bottom: 10px;*/
+    margin: 10px 0px;
+    font-size: 1.25rem;
+    font-weight: 800;
+    color: #a115d8;
+}
+
+main p {
+
+    max-width: 210px;
+    margin-bottom: 50px;
+    color: var(rgb(230, 63, 63))
+
+}
+/*Links*/
+.container > a {
+    text-decoration: none;
+    background-color:#a115d8;
+    color: rgb(255, 255, 255);
+    width: 320px;
+    height: 50px;
+    margin-bottom: 40px;
+    text-align: center;
+    padding-top: 16px;
+    border-radius: 50px;
+
+}
+
+/*Rodapé*/
+footer {
+
+    margin-top: 30px;
+    
+}
+
+footer img {
+
+    margin: 0px 10px;
+    
+    
+
+
+}
